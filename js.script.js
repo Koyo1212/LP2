@@ -38,7 +38,7 @@ $('.historywrapper__markx__image__txt').slick({
   asNavFor: '.history-wrapper__markx__image'
 });
 $('.history-wrapper__markx__image').slick({
-  slidesToShow: 1,
+  slidesToShow: 3,
   slidesToScroll: 1,
   asNavFor: '.historywrapper__markx__image__txt',
   dots: true,
