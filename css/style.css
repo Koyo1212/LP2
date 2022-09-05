@@ -112,9 +112,9 @@ body {
 .hamburger span {
   display: block;
   position: absolute;
-  width: 30px;
+  width: 20px;
   height: 2px;
-  left: 6px;
+  left: 10px;
   background: rgb(255, 0, 0);
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out;
@@ -126,11 +126,11 @@ body {
 }
 
 .hamburger span:nth-child(2) {
-  top: 20px;
+  top: 15px;
 }
 
 .hamburger span:nth-child(3) {
-  top: 30px;
+  top: 20px;
 }
 
 /* ナビ開いてる時のボタン */
@@ -401,7 +401,7 @@ text-align: center;
 
 .historywrapper__mark2__main__image img {
   border: solid #fff 1px;
-  width: 35%;
+  width: 50%;
   margin: 2% auto;
   height: auto;
 
@@ -478,7 +478,7 @@ font-size: 1.6rem;
 
 
 .history-wrapper__markx__image__item img {
-  width:100%;
+  width:80%;
   height: auto;
   border: solid #fff 1px;
   margin: 0 auto;
@@ -489,20 +489,20 @@ font-size: 1.6rem;
 
 .historywrapper__markx__image__txt {
   text-align: center;
-  width: 100%;
+  width: 80%;
   margin-top: 2%;
- 
+margin: 0 auto; 
 }
 
 .historywrapper__markx__main__image {
-
+margin: 0 auto;
   width: 80%;
 }
 
 
 .historywrapper__markx__main__image img {
   border: solid #fff 1px;
-  width: 30%;
+  width: 50%;
   height: auto;
 margin: 3% auto;
 }
@@ -595,14 +595,14 @@ font-size: 1.6rem;
 }
 
 .historywrapper__markxgs__main__image {
-  width: 50%;
+  width: 80%;
   text-align: center; 
   padding-bottom: 1%;
 }
 
 .historywrapper__markxgs__main__image img {
   border: solid #fff 1px;
-  width:30%;
+  width:40%;
   margin: 3% auto;
   height: auto;
 
