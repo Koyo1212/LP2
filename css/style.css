@@ -1171,4 +1171,15 @@ text-align: center;
   top: 43%;
 }
 }
-
+   /*MARK2*/
+element.style {
+  width: 87.7188px;
+}
+/*MARKX*/
+element.style {
+  width: 94.375px;
+}
+/*MARKX*/
+element.style {
+  width:87.7188px !important;
+}
