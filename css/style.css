@@ -136,7 +136,7 @@ body {
 /* ナビ開いてる時のボタン */
 .hamburger.active span:nth-child(1) {
   top: 16px;
-  left: 6px;
+  left:10px;
   background: #fff;
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
