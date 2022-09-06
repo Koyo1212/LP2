@@ -168,3 +168,7 @@ $(function () {
     }
   });
 });
+
+$('#manu a[href]').on('click', function (event) {
+  $('.navToggle').trigger('click');
+});
