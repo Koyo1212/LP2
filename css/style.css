@@ -207,6 +207,8 @@ text-align: center;
   font-family: 'Noto Serif', serif;
   color: #fff;
   text-decoration: none;
+  border:solid rgb(255, 255, 255) 5px;
+ 
 }
 /* このクラスを、jQueryで付与・削除する */
 nav.globalMenuSp.active {
@@ -262,7 +264,7 @@ height: auto;
 .history-wrapper__ttl {
   width: 100%;
   text-align: center;
-  margin: 5% 0 0 0;
+  margin-top: 5%;
 }
 
 .history-wrapper__ttl h1 {
@@ -319,9 +321,9 @@ height: auto;
 
 .history-wrapper__mark2__image {
 text-align: center;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
-padding: 8% 0 0% 0;
+padding-top:7%;
 
 }
 
@@ -345,7 +347,9 @@ font-size: 2rem;
 
 }
 
-
+element.style {
+  width: 308px !important;
+}
 
 .slick-dots li button:before {
   color: #fff;
@@ -480,7 +484,7 @@ font-size:1.5rem;
 
 .history-wrapper__markx__image {
 
-  width:90%;
+  width:80%;
   margin: 0 auto;
   padding-top: 7%;
 }
@@ -500,11 +504,10 @@ font-size: 1.6rem;
   width:100%;
   height: auto;
   border: solid #fff 1px;
-
   margin-bottom: 8%;
-  
-  
 }
+
+
 
 .historywrapper__markx__image__txt {
   text-align: center;
@@ -587,7 +590,7 @@ font-size:1.5rem;
 
 .history-wrapper__markxgs__image {
 
-  width:90%;
+  width:80%;
   margin: 0 auto;
   padding-top: 7%;
 }
