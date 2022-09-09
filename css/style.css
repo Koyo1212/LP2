@@ -341,7 +341,7 @@ font-size: 2rem;
 
 .history-wrapper__mark2__image__item img {
   width: 340px !important;
- object-fit: fill;
+ object-fit: cover;
   margin: 4% auto 0;
   border: solid #fff 1px;
 }
@@ -377,7 +377,7 @@ font-size: 2rem;
 @media screen and (max-width:1550px) {
   .history-wrapper__mark2__image__item img {
     width: 28rem !important;
-    object-fit: fill;
+    object-fit: cover;
     margin: 4% auto 0;
     border: solid #fff 1px;
   }
@@ -391,7 +391,7 @@ font-size: 2rem;
 @media screen and (max-width:400px) {
   .history-wrapper__mark2__image__item img {
     width: 23rem !important;
-    object-fit: fill;
+    object-fit: cover;
     margin: 4% auto 0;
     border: solid #fff 1px;
   }
@@ -403,7 +403,7 @@ font-size: 2rem;
 }
 .slide-item{
   width:100% !important;
- object-fit: cover;
+
 }
 
 
@@ -488,6 +488,11 @@ font-size: 2rem;
   padding-bottom: 0.2%;
 }
 
+.sp__txt{
+  width: 80%;
+  margin: 0 auto;
+}
+
 .historywrapper__mark2__main__image {
 text-align: center;
   margin: 0 auto;
@@ -502,6 +507,13 @@ text-align: center;
     width: 80%;
 
   }
+
+    .historywrapper__mark2__image__txt {
+      width: 50%;
+  
+      margin-top: 0.2%;
+      padding-bottom: 0.2%;
+    }
 }
 
 .historywrapper__mark2__main__image img {
@@ -584,7 +596,7 @@ font-size: 1.6rem;
 
 .history-wrapper__markx__image__item img {
   width: 260px !important;
-    object-fit: fill;
+    object-fit:cover;
     margin: 4% auto 0;
     border: solid #fff 1px;
 }
@@ -601,7 +613,7 @@ font-size: 1.6rem;
 @media screen and (max-width:1550px) {
   .history-wrapper__markx__image__item img {
     width: 28rem !important;
-    object-fit: fill;
+    object-fit: cover;
     margin: 4% auto 0;
     border: solid #fff 1px;
   }
@@ -615,7 +627,7 @@ font-size: 1.6rem;
 @media screen and (max-width:400px) {
   .history-wrapper__markx__image__item img {
     width: 23rem !important;
-    object-fit: fill;
+    object-fit: cover;
     margin: 4% auto 0;
     border: solid #fff 1px;
   }
@@ -628,7 +640,7 @@ font-size: 1.6rem;
 
 .slide-item {
   width: 100% !important;
-  object-fit: cover;
+
 }
 
 .historywrapper__markx__image__txt {
@@ -748,7 +760,8 @@ font-size: 1.6rem;
 @media screen and (max-width:1550px) {
   .history-wrapper__markxgs__image__item img {
     width: 28rem !important;
-    object-fit: fill;
+   
+    object-fit: cover;
     margin: 4% auto 0;
     border: solid #fff 1px;
   }
@@ -762,7 +775,7 @@ font-size: 1.6rem;
 @media screen and (max-width:400px) {
   .history-wrapper__markxgs__image__item img {
     width: 23rem !important;
-    object-fit: fill;
+    object-fit: cover;
     margin: 4% auto 0;
     border: solid #fff 1px;
   }
