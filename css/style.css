@@ -238,7 +238,8 @@ nav.globalMenuSp.active {
 .slide-item img {
 
 width: 100%;
-height: auto;
+height: 100vh;
+object-fit: cover;
 }
 
 .slick-prev,
